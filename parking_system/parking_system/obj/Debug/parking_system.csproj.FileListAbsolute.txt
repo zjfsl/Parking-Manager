@@ -1,0 +1,11 @@
+C:\Users\hcx\Desktop\parking_system\parking_system\bin\Debug\parking_system.exe.config
+C:\Users\hcx\Desktop\parking_system\parking_system\bin\Debug\parking_system.exe
+C:\Users\hcx\Desktop\parking_system\parking_system\bin\Debug\parking_system.pdb
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.csprojResolveAssemblyReference.cache
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.administer.resources
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.login.resources
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.Properties.Resources.resources
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.csproj.GenerateResource.Cache
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.csproj.CoreCompileInputs.cache
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.exe
+C:\Users\hcx\Desktop\parking_system\parking_system\obj\Debug\parking_system.pdb
