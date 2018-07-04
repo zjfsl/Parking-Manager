@@ -34,3 +34,14 @@ C:\Users\hcx\Desktop\parking_system\Admin\Admin\bin\Debug\Admin.exe.config
 C:\Users\hcx\Desktop\parking_system\Admin\Admin\bin\Debug\Admin.exe
 C:\Users\hcx\Desktop\parking_system\Admin\Admin\bin\Debug\Admin.pdb
 C:\Users\hcx\Desktop\parking_system\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\bin\Debug\Admin.exe.config
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.exe
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.pdb
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\bin\Debug\Admin.exe
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\bin\Debug\Admin.pdb
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.admin.resources
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.adminLogin.resources
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.Properties.Resources.resources
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.pwErr.resources
+D:\VS_projects\Parking-Manager\parking_system\Admin\Admin\obj\Debug\Admin.csproj.GenerateResource.Cache
