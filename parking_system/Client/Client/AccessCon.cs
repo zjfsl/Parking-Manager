@@ -17,7 +17,7 @@ namespace AccessCon
 class Access
 {
        
-        OleDbConnection oleDb = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Application.StartupPath + @"..\..\..\..\..\Admin\Admin\bin\Debug\Parking.mdb");
+        OleDbConnection oleDb = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Application.StartupPath + @"\Parking.mdb");
     public void Closecon()//关闭连接
         {
             oleDb.Close();
