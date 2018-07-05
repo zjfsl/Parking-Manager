@@ -30,10 +30,11 @@
         {
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button2
@@ -57,25 +58,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold);
-            this.textBox5.Location = new System.Drawing.Point(132, 106);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(90, 15);
-            this.textBox5.TabIndex = 45;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(49, 108);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 14);
-            this.label4.TabIndex = 44;
-            this.label4.Text = "支付方式：";
-            // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold);
@@ -95,15 +77,45 @@
             this.label3.TabIndex = 42;
             this.label3.Text = "缴费金额：";
             // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::Client.Properties.Resources.wx;
+            this.button5.Location = new System.Drawing.Point(175, 99);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(40, 40);
+            this.button5.TabIndex = 54;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button4.BackgroundImage = global::Client.Properties.Resources.zfb;
+            this.button4.Location = new System.Drawing.Point(121, 99);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(40, 40);
+            this.button4.TabIndex = 53;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("等线", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(49, 112);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 14);
+            this.label1.TabIndex = 52;
+            this.label1.Text = "支付方式：";
+            // 
             // payment2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label3);
             this.Name = "payment2";
@@ -118,9 +130,10 @@
 
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
     }
 }

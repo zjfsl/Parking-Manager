@@ -37,5 +37,12 @@ namespace Client
             this.Hide();
             form.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            login form = new login();
+            this.Hide();
+            form.Show();
+        }
     }
 }

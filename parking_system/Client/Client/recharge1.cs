@@ -34,5 +34,10 @@ namespace Client
                 textBox3.Text = item[6].ToString();
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
