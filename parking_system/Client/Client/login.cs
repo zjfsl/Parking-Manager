@@ -23,31 +23,22 @@ namespace Client
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //String name = this.textBox2.Text; 
-            //String password = this.textBox1.Text;
-            //if (name.Equals("member") && password.Equals("123456")) 
-            //{
-            //    recharge1 form = new recharge1();
-            //    this.Hide();
-            //    form.Show();
-            //}
-            //else
-            //{
-            //    pwErr form = new pwErr();
-            //    this.Hide();
-            //    form.Show();
-            //}
-            Access test = new Access();
-            //test.Get();
-            bool result = false;
-            result = test.Find(textBox1.Text, textBox2.Text);
-            if (result == true)
+            int flag;
+            Login.login program1 = new Login.login();
+            flag = program1.LoginWindow(textBox1.Text,textBox2.Text);
+            switch(flag)
             {
-                payment2 payment2 = new payment2();
-                this.Hide();
-                payment2.Show();
+                case 1:admin admin = new admin();
+                    admin.Show();
+                    this.Hide();
+                    break;
+                case 2:user user = new user();
+                    user.Show();
+                    this.Hide();
+                    break;
+                case 3:MessageBox.Show("用户名或密码错误！");
+                    break;
             }
-            test.Closecon();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)

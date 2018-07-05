@@ -29,10 +29,22 @@ namespace Client
 
         private void label35_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void textBox29_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            client client = new client();
+            client.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

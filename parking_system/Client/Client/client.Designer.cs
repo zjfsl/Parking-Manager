@@ -100,6 +100,7 @@
             this.Name = "client";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Client";
+            this.Load += new System.EventHandler(this.client_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

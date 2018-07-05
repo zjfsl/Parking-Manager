@@ -44,5 +44,10 @@ namespace Client
             this.Hide();
             form.Show();
         }
+
+        private void client_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
