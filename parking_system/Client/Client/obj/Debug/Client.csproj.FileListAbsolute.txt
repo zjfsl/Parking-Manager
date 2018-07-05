@@ -96,3 +96,4 @@ C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\obj\Deb
 C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\obj\Debug\Client.exe
 C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\obj\Debug\Client.pdb
+D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.admin.resources
