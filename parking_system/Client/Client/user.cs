@@ -85,6 +85,7 @@ namespace Client
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Form1Form2.cacheclean.clean();
             this.Close();
             client client = new client();
             client.Show();

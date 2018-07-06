@@ -9,6 +9,14 @@ using System.Data;
 
 namespace Form1Form2
 {
+    static class cacheclean
+    {
+        public static void clean()
+        {
+             mm.m = null;
+             mm.n = null;
+        }
+    }
     public struct mm
     {
         public static string m = null;
