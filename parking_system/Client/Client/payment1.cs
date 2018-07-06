@@ -38,8 +38,8 @@ namespace Client
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AccessCon.Access access = new AccessCon.Access();
-            DataTable dataTable = access.Find(true,Convert.ToString(textBox1.Text));
+            Payment1.Find program4 = new Payment1.Find();
+            DataTable dataTable = program4.findViaPla(true,Convert.ToString(textBox1.Text));
             if(dataTable==null)
                 return;
             foreach(DataRow item in dataTable.Rows)
@@ -47,9 +47,11 @@ namespace Client
                 textBox11.Text=Convert.ToString(item[0]);
                 textBox12.Text = Convert.ToString(item[2]);
                 textBox13.Text = Convert.ToString(item[1]);
-                TimeSpan timeSpan = Convert.ToDateTime(item[3])-Convert.ToDateTime(item[2]);
+                TimeSpan timeSpan = Convert.ToDateTime(item[3].ToString())-Convert.ToDateTime(item[2].ToString());
                 textBox14.Text = Convert.ToString(timeSpan.Hours)+"小时"+Convert.ToString(timeSpan.Minutes)+"分钟";
                 textBox16.Text = Convert.ToString(timeSpan.TotalMinutes*2)+"（每分钟两元）";
+                Form1Form2.mm.caculator = Convert.ToInt32(timeSpan.TotalMinutes * 2);
+                break;
             }
         }
 

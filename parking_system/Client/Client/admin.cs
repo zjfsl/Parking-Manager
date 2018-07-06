@@ -58,5 +58,37 @@ namespace Client
             Admin.queryViaPho program2 = new Admin.queryViaPho();
             program2.update(Form1Form2.mm.temp);
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Admin.queryViaPho program3 = new Admin.queryViaPho();
+            DataTable dt = program3.dateSend(dateTimePicker3.Value.Date);
+            //DateTimePicker.Value.ToString( "yyyy-MM-dd ");
+            dataGridView2.DataSource = dt;
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Admin.queryViaPho program4 = new Admin.queryViaPho();
+            if (textBox21.Text.ToString() == "")
+                return;
+            dataGridView1.DataSource = program4.query(Convert.ToInt32(textBox21.Text));
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Admin.queryViaPho program4 = new Admin.queryViaPho();
+            textBox22.Text = program4.Money(program4.dateSend(dateTimePicker1.Value.Date)).ToString();
+        }
+
+        private void tabPage5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

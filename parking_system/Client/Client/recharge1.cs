@@ -19,16 +19,21 @@ namespace Client
 
         private void button1_Click(object sender, EventArgs e)
         {
-            recharge2 form = new recharge2();
-            this.Hide();
-            form.Show();
+            Recharge1.Recharge program1 = new Recharge1.Recharge();
+            if (program1.charge(Convert.ToInt32(textBox4.Text),textBox1.Text.ToString()) && textBox4.Text!="")
+            {
+                MessageBox.Show("充值成功，账户余额为"+Form1Form2.mm.caculator+"元");
+                Form1Form2.cacheclean.cleancache();
+                client c = new client();
+                c.Show();
+                this.Close();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AccessCon.Access access = new AccessCon.Access();
-            DataTable dataTable = access.Find(textBox1.Text.ToString());
-            foreach (DataRow item in dataTable.Rows)
+            Recharge1.query program2 = new Recharge1.query();
+            foreach (DataRow item in program2.queryInfo(textBox1.Text.ToString()).Rows)
             {
                 textBox2.Text = item[3].ToString();
                 textBox3.Text = item[6].ToString();
@@ -38,6 +43,13 @@ namespace Client
         private void button4_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            client c = new client();
+            c.Show();
+            this.Close();
         }
     }
 }

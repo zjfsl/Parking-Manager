@@ -48,12 +48,13 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 8F);
-            this.button2.Location = new System.Drawing.Point(206, 270);
+            this.button2.Location = new System.Drawing.Point(234, 270);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 48;
             this.button2.Text = "取消";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -107,9 +108,10 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold);
-            this.textBox3.Location = new System.Drawing.Point(166, 97);
+            this.textBox3.Location = new System.Drawing.Point(146, 97);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(90, 15);
             this.textBox3.TabIndex = 41;
             // 
@@ -126,9 +128,10 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("等线", 8.5F);
-            this.textBox2.Location = new System.Drawing.Point(146, 63);
+            this.textBox2.Location = new System.Drawing.Point(146, 64);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(90, 15);
             this.textBox2.TabIndex = 39;
             // 
@@ -175,7 +178,7 @@
             // button5
             // 
             this.button5.BackgroundImage = global::Client.Properties.Resources.wx;
-            this.button5.Location = new System.Drawing.Point(200, 198);
+            this.button5.Location = new System.Drawing.Point(207, 198);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(40, 40);
             this.button5.TabIndex = 51;
@@ -185,7 +188,7 @@
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.button4.BackgroundImage = global::Client.Properties.Resources.zfb;
-            this.button4.Location = new System.Drawing.Point(146, 198);
+            this.button4.Location = new System.Drawing.Point(157, 198);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(40, 40);
             this.button4.TabIndex = 50;

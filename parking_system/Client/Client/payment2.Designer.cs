@@ -61,11 +61,13 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("等线", 9F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(132, 56);
+            this.textBox4.Location = new System.Drawing.Point(121, 56);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(90, 15);
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(83, 16);
             this.textBox4.TabIndex = 43;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label3
             // 
@@ -121,6 +123,7 @@
             this.Name = "payment2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "payment2";
+            this.Load += new System.EventHandler(this.payment2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

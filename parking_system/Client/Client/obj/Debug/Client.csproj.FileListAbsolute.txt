@@ -62,16 +62,12 @@ D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.pay
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.payment2.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.paySucc.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.Properties.Resources.resources
-D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.pwSet.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.recharge1.resources
-D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.recharge2.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.register.resources
-D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.registerSucc.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\bin\Debug\Client.exe.config
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\bin\Debug\Client.exe
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\bin\Debug\Client.pdb
-D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.exe
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.pdb
 C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\bin\Debug\Client.exe.config
@@ -97,3 +93,4 @@ C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\obj\Deb
 C:\Users\hcx\Desktop\Parking-Manager-master\parking_system\Client\Client\obj\Debug\Client.pdb
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.admin.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.user.resources
+D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
