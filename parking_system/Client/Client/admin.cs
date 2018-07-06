@@ -57,7 +57,6 @@ namespace Client
             }
             Admin.queryViaPho program2 = new Admin.queryViaPho();
             program2.update(Form1Form2.mm.temp);
-            MessageBox.Show("修改成功！");
         }
     }
 }

@@ -123,8 +123,15 @@ namespace Admin
         }
         public void update(DataTable toUpdate)
         {
-            Access test = new Access();
-            test.Change(toUpdate);
+            foreach(DataRow item in toUpdate.Rows)
+            {
+                Access test = new Access();
+                if(test.Change(item[5].ToString(),item[3].ToString(),item[4].ToString(),item[5].ToString(),item[6].ToString(),item[7].ToString(),item[8].ToString(),item[9].ToString(),item[10].ToString(),item[11].ToString()))
+                {
+                    MessageBox.Show("修改成功!");
+                }
+            }
+            
         } 
 
     }
