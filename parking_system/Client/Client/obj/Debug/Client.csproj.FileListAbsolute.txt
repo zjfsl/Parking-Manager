@@ -62,7 +62,6 @@ D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.pay
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.payment2.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.paySucc.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.Properties.Resources.resources
-D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.pwErr.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.pwSet.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.recharge1.resources
 D:\VS_projects\Parking-Manager\parking_system\Client\Client\obj\Debug\Client.recharge2.resources

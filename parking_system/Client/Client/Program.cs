@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using AccessCon;
 using System.Data.OleDb;
 using System.Data;
+using Client;
 
 namespace Form1Form2
 {
@@ -21,6 +22,7 @@ namespace Form1Form2
     {
         public static string m = null;
         public static string n = null;
+        public static DataTable temp = null;
     };
 }
 namespace Client
@@ -101,6 +103,30 @@ namespace User
             dt = test.FindPark(pla);
             return dt;
         }
+    }
+
+}
+
+namespace Admin
+{
+    public class queryViaPho
+    {
+        public DataTable query(string phone)
+        {
+            DataTable ReCl = null;
+            Access test = new Access();
+            ReCl = null;
+            ReCl = test.Find(phone);
+            test.Closecon();
+            Form1Form2.mm.temp = ReCl;
+            return ReCl;
+        }
+        public void update(DataTable toUpdate)
+        {
+            Access test = new Access();
+            test.Change(toUpdate);
+        } 
+
     }
 
 }

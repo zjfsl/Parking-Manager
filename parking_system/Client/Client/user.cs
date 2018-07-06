@@ -44,10 +44,8 @@ namespace Client
 
         private void button19_Click(object sender, EventArgs e)//按车牌号查询键
         {
-            DataTable fill = null;
             User.queryViaPlt program2 = new User.queryViaPlt();
-            fill = program2.query(textBox30.Text);
-            dataGridView1.DataSource = fill;
+            dataGridView1.DataSource = program2.query(textBox30.Text);
         }
 
         private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
@@ -63,8 +61,7 @@ namespace Client
         private void user_Load(object sender, EventArgs e)//初始读取
         {
             User.downloadInfo program1 = new User.downloadInfo();
-            DataTable fill = program1.download();
-            foreach (DataRow item in fill.Rows)
+            foreach (DataRow item in program1.download().Rows)
             {
                 textBox2.Text = item[3].ToString();
                 textBox5.Text = item[4].ToString();

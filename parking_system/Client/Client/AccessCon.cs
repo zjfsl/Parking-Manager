@@ -206,6 +206,19 @@ public class Access
         int i = oleDbCommand.ExecuteNonQuery();
         return i > 0;
     }
-}
+
+
+
+        public bool Change(DataTable Info)
+        {
+            string sql = "select * from t_user";
+            OleDbDataAdapter dbDataAdapter = new OleDbDataAdapter(sql, oleDb); //创建适配对象
+            DataTable dt = new DataTable(); //新建表对象
+            dbDataAdapter.Fill(dt); //用适配对象填充表对象
+            int i = dbDataAdapter.Update();
+            return i > 0;
+        }
+
+    }
 
 }
