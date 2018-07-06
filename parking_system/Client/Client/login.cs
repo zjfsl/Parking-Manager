@@ -37,7 +37,7 @@ namespace Client
                     this.Hide();
                     break;
                 case 3:MessageBox.Show("用户名或密码错误！");
-                    break;
+                    return;
             }
         }
 
